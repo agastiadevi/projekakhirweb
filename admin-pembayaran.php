@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
  if($q) {
   header('Location: admin-pembayaran.php');
  } else {
-  echo "<script>alert('Gagal menambahkan data'); window.location.href = index.php;</script>";
+  echo "<script>alert('Gagal menambahkan data'); window.location.href = admin-pembayaran.php;</script>";
  }
 }
 
