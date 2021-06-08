@@ -79,8 +79,12 @@
         		<option value="Lunas">Lunas</option>
         		<option value="Dp">DP</option>
       		</select>
+		<br>
+      		<label>Jumlah barang </label>
+      		<input type="text" class="form-control" name="jumlah_barang">
       		<br>
       		<input type="submit" name="Submit" value="Submit">
+		
     		</form>
   		</section>
   		</center>
